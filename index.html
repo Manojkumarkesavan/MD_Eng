@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#1a0a00">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Dhanu & Manoj | நிச்சயதார்த்தம் 💍</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500&family=Noto+Serif+Tamil:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Envelope Opening Animation -->
+    <div id="envelope-intro">
+        <div class="envelope-container">
+            <p class="tap-text">✉ Tap to Open ✉</p>
+            <div class="envelope">
+                <div class="envelope-back"></div>
+                <div class="envelope-letter">
+                    <div class="letter-content">
+                        <div class="letter-border"></div>
+                        <p class="letter-om">🙏 ॐ</p>
+                        <p class="letter-tamil">நிச்சயதார்த்தம்</p>
+                        <p class="letter-names">Dhanu & Manoj</p>
+                        <p class="letter-date">Dec 14, 2026</p>
+                    </div>
+                </div>
+                <div class="envelope-front"></div>
+                <div class="envelope-flap">
+                    <div class="wax-seal">💍</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="rings">
+                <div class="ring ring-1"></div>
+                <div class="ring ring-2"></div>
+            </div>
+            <p class="loader-text">🪔 சுபம் • Shubham 🪔</p>
+        </div>
+    </div>
+
+    <!-- Music Player -->
+    <div id="music-player">
+        <button id="music-toggle" class="music-btn" aria-label="Toggle Music">
+            <span class="music-icon">🎵</span>
+            <div class="sound-waves">
+                <span></span><span></span><span></span><span></span>
+            </div>
+        </button>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Floating Elements -->
+    <div id="floating-elements"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-logo">
+            <span class="om">ॐ</span>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle Navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#couple">The Couple</a></li>
+            <li><a href="#families">Families</a></li>
+            <li><a href="#event">Event Details</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="video-background">
+            <video autoplay muted loop playsinline id="hero-video" poster="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=1200&h=800&fit=crop">
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-lighting-a-candle-with-a-match-in-slow-motion-39737-large.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="curtain-left"></div>
+            <div class="curtain-right"></div>
+            
+            <div class="hero-text">
+                <div class="tamil-header">
+                    <p class="invocation">|| శ్రీ || ॐ श्री गणेशाय नमः ||</p>
+                </div>
+                
+                <p class="save-date">With the Blessings of the Almighty & Elders</p>
+                
+                <div class="ceremony-title">
+                    <span class="tamil-text">நிச்சயதார்த்தம்</span>
+                    <span class="english-text">Engagement Ceremony</span>
+                </div>
+                
+                <div class="couple-monogram">
+                    <span class="bride-initial">D</span>
+                    <span class="ampersand">&</span>
+                    <span class="groom-initial">M</span>
+                </div>
+                
+                <h1 class="couple-names">
+                    <span class="name bride-name">Dhanu</span>
+                    <span class="weds">weds</span>
+                    <span class="name groom-name">Manoj</span>
+                </h1>
+                
+                <div class="divider">
+                    <span class="line"></span>
+                    <span class="kolam">🪷</span>
+                    <span class="line"></span>
+                </div>
+                
+                <p class="date-location">
+                    <span class="date">Date - December 14, 2026</span>
+                    <span class="separator">•</span>
+                    <span class="location">Lakshmi Aandal Maaligai, Chromepet</span>
+                </p>
+                
+                <p class="muhurtham-time">
+                    <span class="label">Muhurtham:</span>
+                    <span class="time">6:00 AM - 7:30 AM</span>
+                </p>
+                
+                <a href="#rsvp" class="cta-button">
+                    <span>Confirm Your Presence</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse"><div class="wheel"></div></div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section id="countdown" class="countdown-section">
+        <div class="container">
+            <h2 class="section-title">Counting Down to the Auspicious Day</h2>
+            <div class="countdown-timer">
+                <div class="countdown-item">
+                    <div class="flip-card"><span id="days" class="number">00</span></div>
+                    <span class="label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <div class="flip-card"><span id="hours" class="number">00</span></div>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <div class="flip-card"><span id="minutes" class="number">00</span></div>
+                    <span class="label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <div class="flip-card"><span id="seconds" class="number">00</span></div>
+                    <span class="label">Seconds</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About the Couple -->
+    <section id="couple" class="couple-section">
+        <div class="container">
+            <h2 class="section-title">About the Couple</h2>
+            <p class="section-subtitle">Two souls, brought together by destiny and the blessings of elders</p>
+            
+            <div class="couple-cards">
+                <!-- Bride Card -->
+                <div class="person-card bride-card glass-card">
+                    <div class="card-decoration top-left">🌺</div>
+                    <div class="card-decoration top-right">🌺</div>
+                    <div class="person-image">
+                        <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=400&h=500&fit=crop" alt="Bride">
+                        <div class="image-frame"></div>
+                    </div>
+                    <h3 class="person-name">Dhanushri S R</h3>
+                    <p class="person-star">Star: Nakshatra | Rasi: Rasi</p>
+                    <p class="person-edu">Education - M.sc, IT & Digital Forensics</p>
+                    <p class="person-work">Occupation - Software Engineer at TCS</p>
+                    <div class="person-parents">
+                        <p><strong>Daughter of</strong></p>
+                        <p>Sekar V &</p>
+                        <p>Ramamirtham S</p>
+                        <p class="native">Chennai</p>
+                    </div>
+                </div>
+
+                <!-- Center Decoration -->
+                <div class="center-symbol">
+                    <div class="mangal-sutra">
+                        <span>💍</span>
+                    </div>
+                    <div class="thali-decoration">
+                        <span class="diya">🪔</span>
+                    </div>
+                </div>
+
+                <!-- Groom Card -->
+                <div class="person-card groom-card glass-card">
+                    <div class="card-decoration top-left">🌺</div>
+                    <div class="card-decoration top-right">🌺</div>
+                    <div class="person-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop" alt="Groom">
+                        <div class="image-frame"></div>
+                    </div>
+                    <h3 class="person-name">Manojkumar</h3>
+                    <p class="person-star">Star: Mrigarisha | Rasi: Taurus</p>
+                    <p class="person-edu">Education - B.Tech, IT</p>
+                    <p class="person-work">Occupation - Software Engineer at Ford</p>
+                    <div class="person-parents">
+                        <p><strong>Son of</strong></p>
+                        <p>Kesavan R &</p>
+                        <p>Indra K</p>
+                        <p class="native">Chennai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Family Blessings Section -->
+    <section id="families" class="families-section">
+        <div class="container">
+            <h2 class="section-title">With the Blessings of</h2>
+            <p class="section-subtitle">Our beloved families invite you with love and joy</p>
+            
+            <div class="families-grid">
+                <div class="family-card glass-card">
+                    <div class="family-icon">🏠</div>
+                    <h3>Bride's Family</h3>
+                    <div class="family-members">
+                        <p class="parent-name">Sekar V</p>
+                        <p class="parent-title">(S/o Grandfather's Name)</p>
+                        <p class="parent-name">Ramamirtham S</p>
+                        <p class="family-location">📍 Chennai</p>
+                    </div>
+                </div>
+                
+                <div class="family-card glass-card center-blessing">
+                    <div class="blessing-text">
+                        <p class="tamil-blessing">இறைவன் அருளால்</p>
+                        <p class="english-blessing">By the grace of God</p>
+                        <div class="blessing-icon">🙏</div>
+                        <p class="invite-text">cordially invite you to the<br>engagement ceremony of their beloved children</p>
+                    </div>
+                </div>
+                
+                <div class="family-card glass-card">
+                    <div class="family-icon">🏠</div>
+                    <h3>Groom's Family</h3>
+                    <div class="family-members">
+                        <p class="parent-name">Kesavan R</p>
+                        <p class="parent-title">(S/o Grandfather's Name)</p>
+                        <p class="parent-name">Indra K</p>
+                        <p class="family-location">📍 Chennai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details Section -->
+    <section id="event" class="event-section">
+        <div class="container">
+            <h2 class="section-title">Event Details</h2>
+            <p class="section-subtitle">We request the honour of your gracious presence</p>
+            
+            <div class="event-cards">
+                <div class="event-card flip-card-3d">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">📅</div>
+                            <h3>Date & Muhurtham</h3>
+                            <p>Tap to see details</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>When</h3>
+                            <p class="detail-main">Date - Monday, December 14, 2026</p>
+                            <p class="detail-sub">Tamil Month - Thai 1, Vilambi</p>
+                            <p class="detail-time">Muhurtham: 6:00 AM - 7:30 AM</p>
+                            <p class="detail-note">Reception: December 13 2026, 6:00 PM - 9:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="event-card flip-card-3d">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">🛕</div>
+                            <h3>Venue</h3>
+                            <p>Tap to see details</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Where</h3>
+                            <p class="detail-main">Lakshmi Aandal Maaligai</p>
+                            <p class="detail-sub">clc works road, chromepet</p>
+                            <p class="detail-address">Chennai, Tamil Nadu - 600001</p>
+                            <p class="detail-note">Landmark: Rela hospital</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="event-card flip-card-3d">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">👗</div>
+                            <h3>Dress Code</h3>
+                            <p>Tap to see details</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Attire</h3>
+                            <p class="detail-main">Traditional South Indian</p>
+                            <p class="detail-sub">Ladies: Silk Sarees</p>
+                            <p class="detail-address">Gents: Veshti & Shirt / Formals</p>
+                            <p class="detail-note">Colors: Gold, Red, Green preferred</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Schedule -->
+            <div class="schedule-timeline glass-card">
+                <h3 class="schedule-title">🪔 Order of Ceremonies</h3>
+                <div class="schedule-items">
+                    <div class="schedule-item">
+                        <span class="schedule-time">5:30 AM</span>
+                        <span class="schedule-event">Ganapathi Pooja & Naandi</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="schedule-time">5:45 AM</span>
+                        <span class="schedule-event">Bride & Groom Arrival</span>
+                    </div>
+                    <div class="schedule-item highlight">
+                        <span class="schedule-time">6:00 AM</span>
+                        <span class="schedule-event">💍 Nischayathartham (Ring Exchange)</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="schedule-time">7:30 AM</span>
+                        <span class="schedule-event">Saree & Thali Ceremony</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="schedule-time">8:30 AM</span>
+                        <span class="schedule-event">🍽️ Sappadu (Breakfast)</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="schedule-time">6:00 PM</span>
+                        <span class="schedule-event">🎉 Reception & Celebrations</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Map -->
+            <div class="map-container glass-card">
+                <h3>Find Your Way to the Venue</h3>
+                <div class="map-wrapper">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0!2d80.2!3d13.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAwJzAwLjAiTiA4MMKwMTInMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <a href="https://maps.google.com" target="_blank" class="directions-btn">
+                    <span>Get Directions</span>
+                    <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71L12 2z"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Moments to Cherish</h2>
+            <p class="section-subtitle">A glimpse of this beautiful journey</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&h=400&fit=crop" alt="Couple Photo 1" loading="lazy">
+                    <div class="gallery-overlay"><span class="gallery-icon">🔍</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=400&fit=crop" alt="Traditional Photo" loading="lazy">
+                    <div class="gallery-overlay"><span class="gallery-icon">🔍</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=400&h=400&fit=crop" alt="Family Photo" loading="lazy">
+                    <div class="gallery-overlay"><span class="gallery-icon">🔍</span></div>
+                </div>
+                <div class="gallery-item tall">
+                    <img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=400&h=600&fit=crop" alt="Ceremony" loading="lazy">
+                    <div class="gallery-overlay"><span class="gallery-icon">🔍</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1529634597503-139d3726fed5?w=400&h=400&fit=crop" alt="Decor" loading="lazy">
+                    <div class="gallery-overlay"><span class="gallery-icon">🔍</span></div>
+                </div>
+                <div class="gallery-item wide">
+                    <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&h=300&fit=crop" alt="Celebration" loading="lazy">
+                    <div class="gallery-overlay"><span class="gallery-icon">🔍</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <button class="lightbox-prev">❮</button>
+        <button class="lightbox-next">❯</button>
+        <img src="" alt="Gallery Image" class="lightbox-image">
+    </div>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="rsvp-section">
+        <div class="container">
+            <h2 class="section-title">RSVP</h2>
+            <p class="section-subtitle">Your presence is the greatest blessing 🙏</p>
+            
+            <form id="rsvp-form" class="rsvp-form glass-card">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder=" ">
+                    <label for="name">Your Name</label>
+                    <span class="highlight"></span>
+                </div>
+                
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" required placeholder=" ">
+                    <label for="phone">Phone Number</label>
+                    <span class="highlight"></span>
+                </div>
+                
+                <div class="form-group select-group">
+                    <select id="attending" name="attending" required>
+                        <option value="">Will you attend?</option>
+                        <option value="yes">Happily Attending 🎉</option>
+                        <option value="muhurtham">Attending Muhurtham Only 🪔</option>
+                        <option value="reception">Attending Reception Only 🎊</option>
+                        <option value="no">Unable to Attend 🙏</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <input type="number" id="guests" name="guests" min="0" max="10" placeholder=" ">
+                    <label for="guests">Number of Family Members Attending</label>
+                    <span class="highlight"></span>
+                </div>
+
+                <div class="form-group select-group">
+                    <select id="side" name="side">
+                        <option value="">You are from?</option>
+                        <option value="bride">Bride's Side</option>
+                        <option value="groom">Groom's Side</option>
+                        <option value="both">Both / Family Friend</option>
+                    </select>
+                </div>
+                
+                <div class="form-group textarea-group">
+                    <textarea id="message" name="message" rows="3" placeholder=" "></textarea>
+                    <label for="message">Your Blessings & Wishes</label>
+                </div>
+                
+                <button type="submit" class="submit-btn">
+                    <span>Send Blessings 🙏</span>
+                </button>
+            </form>
+        </div>
+        <canvas id="confetti-canvas"></canvas>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-mandala">🪷</div>
+                <div class="footer-logo">
+                    <span class="footer-names">Dhanu & Manoj</span>
+                    <span class="footer-date">December 14, 2026</span>
+                </div>
+                
+                <div class="footer-hashtag">
+                    <p>Share your moments with us</p>
+                    <span class="hashtag">#DhanuManojNischayam</span>
+                </div>
+                
+                <div class="footer-contact">
+                    <p>For any queries, contact:</p>
+                    <p>📞 [Bride's Family Contact] | 📞 [Groom's Family Contact]</p>
+                </div>
+                
+                <div class="footer-blessing">
+                    <p class="tamil-footer">இன்பமே சூழ்க • மங்களம் பொங்குக</p>
+                    <p class="english-footer">May happiness surround • May auspiciousness overflow</p>
+                </div>
+                
+                <p class="footer-copyright">Made with 🪔 & 💛</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Audio - Nadaswaram / Traditional Music placeholder -->
+    <audio id="background-music" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
